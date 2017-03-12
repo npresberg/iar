@@ -1,0 +1,6 @@
+Thumbs.db
+assets
+node_modules/*
+style.css
+.DS_Store
+npm-debug.log
