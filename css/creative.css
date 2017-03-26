@@ -93,6 +93,7 @@ aside {
     padding: 0;
 }
 
+
 .img-clientes {
     display: block;
     margin: 0 auto;
@@ -293,91 +294,115 @@ header .header-content .header-content-inner p {
 
 }
 
-.section-seguridadehigiene {
+/* Secciones */
+
+section {
+
+}
+
+    section h2 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 21px;
+    }
+
+    section p {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    section h3 {
+        font-size: 18px;
+    }
+
+    .descargas {
+        list-style: none;
+        padding: 0;
+    }
+
+        .descargas a {
+            color: inherit;
+        }
+
+        .descargas .fa-file-pdf-o,
+        .descargas .fa-file-text-o {
+            margin-right: 2px;
+        }
+
+#seguridadehigiene {
     color: #789E5F;
-    text-align: center;
-    font-size: 12px;
 }
 
-.section-seguridadehigiene-titulo {
-    color: #789E5F;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 21px;
-}
 
-.section-ingenieriaderiesgos {
+#ingenieriaderiesgos {
     color: #3D3F6D;
-    text-align: center;
-    font-size: 12px;
 }
 
-.section-ingenieriaderiesgos-tabla {
-    color: #3D3F6D;
-    text-align: left;
-    font-size: 12px;
-}
+    .section-ingenieriaderiesgos-tabla {
+        text-align: left;
+        font-size: 12px;
+    }
 
-.section-ingenieriaderiesgos-titulo {
-    color: #3D3F6D;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 21px;
-}
-
-.section-formacionyentrenamiento {
+#formacionyentrenamiento {
     color: #E5C302;
-    text-align: center;
-    font-size: 12px;
-}
-
-.section-formacionyentrenamiento-titulo {
-    color: #E5C302;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 21px;
 }
 
 #termografia {
     background-color: #789E5F;
     padding: 30px;
-
-}
-
-.section-termografia {
     color: #fff;
-    text-align: center;
-    font-size: 12px;
-    background-color: #789E5F;
-}
-
-.section-termografia-titulo {
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 21px;
-    background-color: #789E5F;
 }
 
 #gestionderiesgos {
     background-color: #3D3F6D;
     padding: 30px;
-
-}
-
-.section-gestionderiesgos {
     color: #fff;
-    text-align: center;
-    font-size: 12px;
 }
 
-.section-gestionderiesgos-titulo {
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 21px;
+#contacto {
+
 }
 
+    #contacto h2 {
+        color: #E5C302;
+        margin-bottom: 20px;
+    }
+    
+    #contacto input,
+    #contacto textarea {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #contacto button {
+        float: right;
+        clear: both;
+        background-color: #E5C302;
+        border-radius: 0px;
+        padding: 8px 16px;
+        color: white;
+    }
+
+    #contacto p {
+        text-align: left;
+    }
+
+    #contacto a {
+        color: #E5C302;
+    }
+
+    #contacto #gracias {
+        display: block;
+        margin-top: 20px;
+    }
+
+        #contacto #gracias p {
+            color: #E5C302;
+            text-align: center;
+            font-size: 18px;
+            width: 100%;
+        }
+    
 .section-heading {
     margin-top: 0;
 }

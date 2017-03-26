@@ -52,4 +52,8 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
+    $('form').submit(function() {
+        $('#contacto .row').hide().filter('#gracias').fadeIn('slow');
+    });
+
 })(jQuery); // End of use strict
